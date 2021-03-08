@@ -1,0 +1,18 @@
+import random
+
+print("Hello! please provide your name to get started with the game!")
+myName = input()
+
+number = random.randint(1, 10)
+print("Well, " + myName + ", I am thinking of a number between 1 and 10.")
+
+print("Take a guess.") 
+guess = int(input())
+
+if guess == number:
+    print("congratulations, " + myName + "! You guessed my number, want to try again?") 
+else:
+    print("Sorry, you guessed the number wrong. Try again? ")
+    print("Press Enter to try again! ")
+    
+    #this is the new file and code . 
